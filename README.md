@@ -1,7 +1,7 @@
 # OOP Polymorphism Playground
 In this Xcode 8.2.1 playground built against the iOS 10 SDK, I used Swift 3 to demonstrate the object-oriented programming (OOP) characteristic of **"polymorphism,"** which I've discussed extensively in the articles [here](http://iosbrain.com/blog/2017/02/26/intro-to-object-oriented-principles-in-swift-3-via-a-message-box-class-hierarchy#polymorphism) and [here](http://iosbrain.com/blog/2017/03/07/polymorphism-in-swift-3-manipulate-multiple-related-controls-with-one-iboutlet-and-one-ibaction/). 
 
-Here I declare a variable of the UIControl type (parent) and assign it references to several subclasses (child classes of UIControl) like UITextField, UISlider, UISegmentedControl, and UIStepper. See how the parent can access properties and methods of its children -- or properties and methods common to parent and children. Here's an example:
+Here I declare a variable of the *UIControl* type (parent) and assign it references to several subclasses (child classes of *UIControl*) like *UITextField*, *UISlider*, *UISegmentedControl*, and *UIStepper*. See how the parent can access properties and methods of its children -- or properties and methods common to parent and children. Here's an example:
 
 ```swift
 var textField : UITextField = UITextField()
